@@ -17,10 +17,6 @@
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
-				<audio autoplay="autoplay" controls="controls"loop="loop">
-					<source src="bg_music.mp3" type="audio/mpeg">
-				  Your browser does not support the audio element.
-				</audio>
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
@@ -35,8 +31,8 @@
 						<nav>
 							<ul>
 								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
+								<li><a href="#work">Works</a></li>
+								<li><a href="#about">Activity</a></li>
 								<li><a href="#contact">Contact</a></li>
 								<!--<li><a href="#elements">Elements</a></li>-->
 							</ul>
@@ -49,35 +45,58 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Hello! This is Huang Wen-Jie. I graduated from <a href="https://www.ltsh.ilc.edu.tw/" target="_blank">Luodong high school</a>, Yi-lan, and currently am studying <a href="https://management.ntu.edu.tw/en/IB" target="_blank">International Business</a> at National Taiwan University, which equips me with the ability of logical thinking and the sensitivity toward markets.</p>
-									</p>
+								<span class="image main"><img src="images/pic02.jpg" alt=""></span>
+								
+								<p><b>201406-201809</b><br>
+我於2014年進入清大經濟系就讀，2018年畢業班排名為1/54（<a href="https://www.ltsh.ilc.edu.tw/" target="_blank">成績單</a>），曾獲得三個學期書卷獎。大四那年，獲得教育部學海飛颺留學獎學金，至日本大阪大學當一學年的交換生。
+</p><p><b>201809-202202</b><br>
+從日本回來後即畢業進入職場，在一外商公司工作，其中兩年獲得公司獎項分別為Achievement Prize、Team Award。
+在職時利用下班後時間進修，參與台大資訊系統訓練班開設的Python課程並取得結業證書、及各大學開設的課程包含:前端網頁設計、物聯網技術、SQL等等（有結業證書得佐證）。原先是為了解決工作上的問題而開始學習程式，而後像是開啟了一扇窗，對世界的看法有了完全不同以往的角度！後決心考取資工所，希望對這方面領域能有更深入的了解。
+</p>
+<p><b>202202-202206</b><br>
+為達到此目標，我先是以台大國企所碩一的身分在台大就讀，並修了資工相關課程（成績單）。透過課程中的作業、projects（詳細請參閱Works），對資工的認識雖僅是滄海一粟，仍一點一滴的累積。
+</p>
+<p><b>202206-202302</b><br>
+全心準備研究所考試，最後有幸於一千五百位考生中，成為錄取交大資工所的考生之一
+</p>
+<p><b>202302-</b><br>
+考取CPE檢定
+</p>
 							</article>
 
 						<!-- Work -->
 							<article id="work">
-								<h2 class="major">Work</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>I have been an exchange student at Osaka University, Japan for one year. I was working as a translator assistant and proofreader in TEN Co., Ltd., which was a translation company. I am detail-oriented and able to handle multiple tasks. In addition, I have been the head of marketing on the team of TEDxNTHU. My work has involved copywriting, operating Facebook fan page, and organizing multiple activities to advertise our annual event. This experience also makes me a good team player through the cooperation with different groups.</p>
+								<h2 class="major">Works</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt=""></span>
+								<ul>
+  <li><b>Programming for Business Computing-Final Project (Team Project)</b><br>台大課程──商管程式設計Final Project。內容為：爬取使用者在NTU COOL（課務系統）未逾期的作業及考試，並按截止日期列出、在逾期之前跳出提醒。本專案希望藉由提醒即將到期的作業和考試，避免忙碌的台大學生忘東忘西、遲交作業。<br>
+我負責撰寫提醒視窗的程式（影片00:40處），利用Tkinter函式庫建出視窗畫面，透過引數傳入截止日將至的事件以表格呈現於視窗。視窗會依照傳入的任務數量決定視窗建立的大小，以避免單一固定大小造成畫面太空曠或太擁擠。炸彈圖示搭配秒針急促行走的背景音效，希望給用戶達到緊張的效果，藉以盡快執行未完成的任務。
+</li><p><iframe width="560" height="315" src="https://www.youtube.com/embed/YxH5LKd3uPk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+  <li><b>Operations Research-Final Project (Team Project)</b><br>台大課程──作業研究Final Project，利用OR習得的技巧，及Python的Integer Program solver、pandas資料視覺化，應用於國企之夜排班法則最佳化。<br>
+Input：每位同學可排班的時段、對於不同工作的志願序<br>Output：每位同學在每一個時段應該做或不做哪一個工作<br>Objective：最小化人力空缺、最小化同學所執行工作的工作志願。<div class="image main"><div class="box"><img class="cover-fit" src="images/ORfinal1.jpg"></div></div>
+</li>
+  <li><b>C/C++ Programming</b><br>台大課程──C/C++程式設計，<a href="https://jgirl.ddns.net/">Judge System for NTU CS Training</a>題目AC數為同期排名第2。最終課程成績A。持續進修C，準備考取CPE檢定。<div class="pic"><span class="image main"><img width="500" src="images/judge.jpg" alt=""></span></div>
+</li>
+  <li><b>Python Programming</b><br>學程式之初，第一個用Python寫出的程式，作為通過課程考核的專題。利用BeautifulSoup爬蟲抓取財政部稅務網站上的統一發票中獎號碼，透過字串切片及條件判斷中獎與否、中獎金額。使用者可選擇對獎月份，並選擇是否繼續對獎，最後結束計算加總中獎金額。
+</li>
 							</article>
 
 						<!-- About -->
 							<article id="about">
-								<h2 class="major">About</h2>
-								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
-								<p>I play badmintons, and <a href = "https://www.facebook.com/profile.php?id=100044580272976" target="_blank">Tai Tzu Ying </a> is one of my favorite players. Reading novels is also one of my hobbies, and I highly recommend <a href = "https://zh.wikipedia.org/wiki/%E5%BC%B7%E9%A2%A8%E5%90%B9%E6%8B%82" target="_blank"><i>Run with the Wind</i></a> written by Shion Miura. Besides, listening to music is one of my biggest enjoyment. Feel free to click <a href = "https://www.youtube.com/watch?v=TgOu00Mf3kI" target="_blank"><i>eight</i></a> to share the joyful moment with me.</p>
+								<h2 class="major">Activity</h2>
+								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+								  <li>大學期間曾擔任TED x NTHU 宣傳部部長，舉辦2017年TED x NTHU年會，主題為outlier，邀請7位不同領域的講者分享故事，與會人數近200人。加入TED x NTHU使我了解造就此舞台的背後運作，比起被眾人所看到的亮麗舞台，不被看見的努力對我來說更加耀眼。「一群人，一起完成一件事」我想這句話包含了我對這次活動的結語。</li><br>
+<li>大學時亦為蘭陽校友會的幹部，寒暑假舉辦給宜蘭國小生的科學體驗營，及給高中生的大學領航營隊</li><br>
+  <li>日本留學期間曾擔任翻譯公司的校對，亦曾以日文撰寫5篇日本和歌山地區的觀光嚮導，發表在日本Skipps平台網站。（註：Skipps為針對旅日外國遊客設計之網站，以多國語言發表日本景點觀光嚮導。）</li></ul>
 							</article>
 
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">contact</h2>
-								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Feel free to contact me if you have any questions.</p>
+								<span class="image main"><img src="images/pic04.jpg" alt="" /></span>
+								<p>Feel free to contact me if you have any questions.<br><a href="#">r10724081@g.ntu.edu.tw</a></p>
 								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://github.com/wenjiehh" target="blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
 
@@ -327,6 +346,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
+    <audio autoplay="autoplay" controls="controls" loop="loop">
+					<source src="bg_music.mp3" type="audio/mpeg">
+				  Your browser does not support the audio element.
+				</audio>
 						<script language="JavaScript">
 							function ShowTime(){
 							　var NowDate=new Date();
@@ -340,11 +363,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							　setTimeout('ShowTime()',1000);
 							}
 							</script>
-							<body onload="ShowTime()">
+							
 							<div id="date"></div>
-							<div id="showbox"></div>
-							</body>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+							<div id="showbox">2-14-2023  22:16:8</div>
+							
+						<p class="copyright">© Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
